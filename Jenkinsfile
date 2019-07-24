@@ -36,7 +36,7 @@ pipeline {
 	}
 	post {
 		always {
-			archiveArtifacts artifacts: '**/rsvp-service-0.0.1-SNAPSHOT.jar', fingerprint: true
+			archiveArtifacts artifacts: '**/my-app-1.0-SNAPSHOT.jar', fingerprint: true
 		}
 	}
 }
